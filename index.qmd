@@ -1,0 +1,46 @@
+---
+title: ""
+format: html
+---
+
+
+::: {.password-container}
+
+<div id="passwordPrompt">
+
+  <p align="center">
+    <img src="wedding_title3.png" width="600px">
+  </p>
+  <h4>Please enter the password for Alivia & Byeong-Hak's Wedding Photo Gallery:</h4>
+  <p align="center">
+    <input type="password" id="password">
+    <button onclick="checkPassword()">Submit</button>
+  </p>
+</div>
+
+<div id="protectedContent" style="display:none;">
+
+<p align="center">
+  <img src="wedding_title3.png" width="600px">
+</p>
+  
+### Welcome to the Alivia & Byeong-Hak's Wedding Photo Gallery!
+
+[Click here!](https://bcdanl.github.io/weddingphotoacbc25)
+</div>
+
+:::
+
+<script>
+function checkPassword() {
+    const correctPassword = "acbc25"; // Change this to your desired password
+    const inputPassword = document.getElementById("password").value;
+
+    if (inputPassword === correctPassword) {
+        document.getElementById("protectedContent").style.display = "block";
+        document.getElementById("passwordPrompt").style.display = "none";
+    } else {
+        alert("Incorrect password. Please try again.");
+    }
+}
+</script>

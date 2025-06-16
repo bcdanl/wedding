@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: "."
+
+website:
+  title: "ACBC's Wedding" 
+  navbar:
+    logo: wedding_title3.png  # Path to your logo file
+    pinned: true
+    search: false
+
+
+format:
+  html:
+    theme: litera
+    mainfont: system-ui; 
+    highlight-style: atom-one  # atom-one espresso
+    css: styles.css
