@@ -26,7 +26,7 @@ format: html
   
 ### Welcome to the Alivia & Byeong-Hak's Wedding Photo Gallery!
 
-[Click here!](https://bcdanl.github.io/weddingphotoacbc25)
+[Click here!](https://bcdanl.github.io/acbcweddingphoto)
 </div>
 
 :::
