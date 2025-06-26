@@ -110,27 +110,34 @@ ul.task-list li input[type="checkbox"] {
 Please enter the password for Alivia &amp; Byeong-Hak’s Wedding Photo Gallery:
 </h4>
 <p align="center">
-<input type="password" id="password"> <button onclick="checkPassword()">Submit</button>
-</p>
+</p><form onsubmit="checkPassword(event)">
+<input type="password" id="password"> <button type="submit">Submit</button>
+</form>
+<p></p>
 </div>
 <div id="protectedContent" style="display:none;">
 <p align="center">
-<img src="wedding_title3.png" width="600px">
+<img src="wedding_title3.png" width="600px" tabindex="-1">
 </p>
 <section id="welcome-to-the-alivia-byeong-haks-wedding-photo-gallery" class="level3">
 <h3 class="anchored" data-anchor-id="welcome-to-the-alivia-byeong-haks-wedding-photo-gallery">Welcome to the Alivia &amp; Byeong-Hak’s Wedding Photo Gallery!</h3>
-<p><a href="https://bcdanl.github.io/acbcweddingphoto">Click here!</a></p>
+<p>
+<a href="https://bcdanl.github.io/acbcweddingphoto" tabindex="-1" id="galleryLink">Click here!</a>
+</p>
 </section>
 </div>
 </div>
 <script>
-function checkPassword() {
-    const correctPassword = "acbc25"; // Change this to your desired password
+function checkPassword(event) {
+    event.preventDefault(); // Prevent form reload
+    const correctPassword = "acbc25";
     const inputPassword = document.getElementById("password").value;
 
     if (inputPassword === correctPassword) {
         document.getElementById("protectedContent").style.display = "block";
         document.getElementById("passwordPrompt").style.display = "none";
+        // Enable tab focus for protected content now
+        document.getElementById("galleryLink").removeAttribute("tabindex");
     } else {
         alert("Incorrect password. Please try again.");
     }
