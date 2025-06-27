@@ -11,13 +11,14 @@ format: html
   </p>
   <h4>Please enter the password for Alivia & Byeong-Hak's Wedding Photo Gallery:</h4>
   <h4>알리비아와 병학의 웨딩 사진 갤러리 비밀번호를 입력해주세요:</h4>
-  <p align="center">
-    <form onsubmit="checkPassword(event)">
-      <input type="password" id="password">
-      <button type="submit">Submit (클릭)</button>
-    </form>
-  </p>
+  <div style="text-align: center;">
+  <form onsubmit="checkPassword(event)" style="display: inline-block;">
+    <input type="password" id="password" style="padding: 8px; font-size: 1rem;">
+    <button type="submit" style="padding: 8px 16px; font-size: 1rem;">Submit (클릭)</button>
+  </form>
+  </div>
 </div>
+
 
 <div id="protectedContent" style="display:none;">
   <p align="center">
