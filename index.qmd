@@ -10,7 +10,7 @@ lightbox: auto
 
 <div id="passwordPrompt">
   <p align="center">
-    <img src="wedding_title3.png" style="max-width: 55%; height: auto;" alt="Wedding Title">
+    <img src="wedding_title3.png" style="max-width: 66%; height: auto;" alt="Wedding Title">
   </p>
   <h4 style="margin: 0; line-height: 1.2;">Please enter the password for Alivia & Byeong-Hak's Wedding Photo Gallery:</h4>
   <h4 style="margin: 0; line-height: 1.2;">알리비아와 병학의 웨딩 사진 갤러리 비밀번호를 입력해주세요:</h4>
@@ -42,7 +42,7 @@ lightbox: auto
 
 <div id="protectedContent" style="display:none;">
   <p align="center">
-    <img src="wedding_title3.png" style="max-width: 55%; height: auto;" alt="Wedding Title">
+    <img src="wedding_title3.png" style="max-width: 66%; height: auto;" alt="Wedding Title">
   </p>
   
 ### Welcome to Alivia & Byeong-Hak's Wedding Photo Gallery!
