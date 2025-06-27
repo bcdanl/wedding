@@ -86,6 +86,14 @@ a:hover {
   line-height: 1.1;
 }
 
+.password-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: visible;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
 .password-container form {
   display: flex;
   flex-direction: column;
