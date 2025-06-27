@@ -42,7 +42,7 @@ lightbox: auto
 
 <div id="protectedContent" style="display:none;">
   <p align="center">
-    <img src="wedding_title3.png" width="600px" tabindex="-1">
+    <img src="wedding_title3.png" style="max-width: 55%; height: auto;" alt="Wedding Title">
   </p>
   
 ### Welcome to Alivia & Byeong-Hak's Wedding Photo Gallery!
