@@ -2,6 +2,8 @@
 format:
   html:
     keep-md: false
+    css: gallery.css
+title: ACBC's Wedding
 editor: source
 lightbox: auto
 ---
@@ -51,7 +53,14 @@ lightbox: auto
 
   <div style="display:block; margin:15px;"></div>
 
-  <p><a href="https://bcdanl.github.io/acbcweddingphoto" tabindex="-1" id="galleryLink">Click here! (여기를  클릭하세요!)</a></p>
+  <p>
+    <a href="https://bcdanl.github.io/acbcweddingphoto"
+       tabindex="-1"
+       id="galleryLink"
+       style="font-weight: bold; font-size: 1.25rem; color: #39274b;">
+      Click here! (여기를 클릭하세요!)
+    </a>
+  </p>
 </div>
 
 
