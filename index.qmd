@@ -7,7 +7,7 @@ format: html
 
 <div id="passwordPrompt">
   <p align="center">
-    <img src="wedding_title3.png" width="575px">
+    <img src="wedding_title3.png" width="525px">
   </p>
   <h4>Please enter the password for Alivia & Byeong-Hak's Wedding Photo Gallery:</h4>
   <h4>알리비아와 병학의 웨딩 사진 갤러리 비밀번호를 입력해주세요:</h4>
@@ -47,3 +47,30 @@ function checkPassword(event) {
     }
 }
 </script>
+
+<style>
+.password-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.password-container input[type="password"] {
+  padding: 8px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+.password-container button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  max-width: 150px;
+}
+</style>
