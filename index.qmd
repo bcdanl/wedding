@@ -1,6 +1,7 @@
 ---
-title: ""
-format: html
+format:
+  html:
+    keep-md: false
 ---
 
 
