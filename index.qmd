@@ -9,8 +9,8 @@ format: html
   <p align="center">
     <img src="wedding_title3.png" width="525px">
   </p>
-  <h4 style="margin: 0; line-height: 1;">Please enter the password for Alivia & Byeong-Hak's Wedding Photo Gallery:</h4>
-  <h4 style="margin: 0; line-height: 1;">알리비아와 병학의 웨딩 사진 갤러리 비밀번호를 입력해주세요:</h4>
+  <h4 style="margin: 0; line-height: 1.2;">Please enter the password for Alivia & Byeong-Hak's Wedding Photo Gallery:</h4>
+  <h4 style="margin: 0; line-height: 1.2;">알리비아와 병학의 웨딩 사진 갤러리 비밀번호를 입력해주세요:</h4>
   
   <div style="display:block; margin:15px;"></div>
 
