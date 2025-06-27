@@ -3,9 +3,9 @@ project:
   output-dir: "."
 
 website:
-  title: "ACBC's Wedding<br><small>ACBC의 결혼식</small>"
+  title: ""
   navbar:
-    logo: wedding_title3.png  # Path to your logo file
+    # logo: wedding_title3.png  # Path to your logo file
     pinned: true
     search: false
 
