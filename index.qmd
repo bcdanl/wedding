@@ -40,12 +40,16 @@ lightbox: auto
 </div>
 
 
+
 <div id="protectedContent" style="display:none;">
   <p align="center">
     <img src="wedding_title3.png" style="max-width: 66%; height: auto;" alt="Wedding Title">
   </p>
   
-### Welcome to Alivia & Byeong-Hak's Wedding Photo Gallery!
+  <h3 style="margin: 0; line-height: 1.2;">Welcome to Alivia & Byeong-Hak's Wedding Photo Gallery!</h4>
+  <h3 style="margin: 0; line-height: 1.2;">알리비아와 병학의 웨딩 사진 갤러리에 오신 것을 환영합니다!</h4>
+
+  <div style="display:block; margin:15px;"></div>
 
   <p><a href="https://bcdanl.github.io/acbcweddingphoto" tabindex="-1" id="galleryLink">Click here! (여기를  클릭하세요!)</a></p>
 </div>
