@@ -18,7 +18,7 @@ format: html
   <form onsubmit="checkPassword(event)" style="display: inline-block;">
     <input type="password" id="password" style="padding: 8px; font-size: 1rem;">
       <div style="display:block; margin:10px;"></div>
-    <button type="submit" style="padding: 8px 16px; font-size: 1rem;">Submit 클릭</button>
+    <button type="submit" style="padding: 8px 16px; font-size: 1rem;">Submit</button>
   </form>
   </div>
 </div>
